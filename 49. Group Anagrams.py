@@ -43,4 +43,4 @@ class Solution:
             
             res[tuple(ch)].append(word)
         
-        return res.values()
+        return list(res.values())
