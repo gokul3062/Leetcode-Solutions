@@ -1,0 +1,31 @@
+1. Python Execution Model & Runtime
+Interpreted vs Compiled: How Python is executed (CPython, JIT, AOT concepts)
+Bytecode & Python Virtual Machine (PVM): .py → .pyc → Bytecode execution in CPython
+Python Implementations: CPython vs PyPy vs Jython vs IronPython
+2. Python Memory Management
+Reference Counting: How Python tracks object references
+Garbage Collection (GC): Generational GC & how gc module works
+Memory Allocation: Role of PyObject, pymalloc, and heap memory
+Interning & Object Reuse: How small integers and strings are optimized
+3. Global Interpreter Lock (GIL)
+What is GIL & why it exists (thread safety & CPython limitations)
+Impact on Multi-threading: How it affects performance
+Ways to bypass GIL: Multiprocessing, Cython, JIT compilers
+4. Multithreading & Multiprocessing
+Threading module: OS threads vs Python threads
+Multiprocessing module: Process-based parallelism
+When to use Threads vs Processes
+Process Pools & Thread Pools
+5. Asynchronous Programming & Coroutines
+Difference between Threads, Processes, and Coroutines
+How async/await works in Python
+Event Loops & asyncio module
+Concurrency Models: Callbacks, Futures, Promises
+6. Python Performance Optimization
+Why Python is slow: Dynamic typing, GIL, interpreted nature
+Ways to speed up Python: Cython, Numba, PyPy, JIT compilation
+Profiling Python Code: cProfile, line_profiler, memory_profiler
+7. Python Interpreters & Compilation Models
+CPython: The standard Python interpreter
+PyPy: JIT compilation for performance improvement
+MicroPython & CircuitPython: Lightweight Python for embedded systems
